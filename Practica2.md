@@ -1,40 +1,25 @@
 # Listado de entidades y sus atributos
 
 ## Artistas 
-- Nombre
-- Cantidad de seguidores
-- Fecha de inicio
--  Discos lanzados
-- Canciones lanzadas
-- Colaboraciones
-- Proximos lanzamientos
+- Nombre artístico
+- Nombre de nacimiento
+- Fecha de nacimiento
+- Nacionalidad
+- Años de actividad
 - Genero musical
 - Cantidad de oyentes
-
-## Oyentes
-- Nombre
-- Cantidad de seguidores
-- Canciones escuchadas
-- Artistas escuchados 
-- Genero preferido
-- Canciones favoritas
-- Cantidad de horas escuchadas 
-- Artista individual
-- Grupos
-- Cantidad de playlists 
 
 ## Discos
 - Nombre
 - Fecha de lanzamiento
 - Nombre de su artista
 - Cantidad de canciones
-- Single principal 
-- Colaboraciones
+- Duración 
+- Genero
 
 ## Canciones
 - Nombre
 - Nombre de su interprete
-- Nombre de su autor
 - Genero al que pertenece
-- Oyentes
+- Duracion
 - Nombre del disco al que pertenece
