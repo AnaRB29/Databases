@@ -6,3 +6,4 @@
 # Entregas 
 
 - [Practica 2](Practica2.md)
+- [Practica 3](https://docs.google.com/spreadsheets/d/1cPbNKjnJHjOCWng0SvBGv5lUCiuTOdFp/edit?usp=sharing&ouid=109254495419660562071&rtpof=true&sd=true)

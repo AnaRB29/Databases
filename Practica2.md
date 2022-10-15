@@ -1,25 +1,26 @@
 # Listado de entidades y sus atributos
 
 ## Artistas 
-- Nombre artístico
-- Nombre de nacimiento
+- Nombre artístico (artista_id)
+- Nombre real(fk)
 - Fecha de nacimiento
 - Nacionalidad
-- Años de actividad
-- Genero musical
-- Cantidad de oyentes
+- Año de inicio(fk)
+- Genero musical (pk)
 
 ## Discos
-- Nombre
+- Nombre (disco_id)
 - Fecha de lanzamiento
-- Nombre de su artista
-- Cantidad de canciones
-- Duración 
-- Genero
+- Nombre de su artista (pk)
+- Cantidad de canciones(fk)
 
 ## Canciones
-- Nombre
-- Nombre de su interprete
-- Genero al que pertenece
+- Nombre (cancion_id)
+- Nombre de su interprete(fk)
 - Duracion
-- Nombre del disco al que pertenece
+- Nombre del disco al que pertenece (pk)
+
+## Genero
+- Nombre (genero_id)
+- Instrumentación(fk)
+- Lugar de origen
