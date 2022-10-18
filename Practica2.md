@@ -2,25 +2,25 @@
 
 ## Artistas 
 - Nombre artístico (artista_id)
-- Nombre real(fk)
+- Nombre real
 - Fecha de nacimiento
 - Nacionalidad
-- Año de inicio(fk)
-- Genero musical (pk)
+- Año de inicio
+- Genero musical (genero_id)(pk)
 
 ## Discos
 - Nombre (disco_id)
 - Fecha de lanzamiento
-- Nombre de su artista (pk)
-- Cantidad de canciones(fk)
+- Nombre de su artista (artista_id)(fk)
+- Cantidad de canciones
 
 ## Canciones
 - Nombre (cancion_id)
-- Nombre de su interprete(fk)
+- Nombre de su interprete (artista_id)(fk)
 - Duracion
-- Nombre del disco al que pertenece (pk)
+- Nombre del disco al que pertenece(disco_id)
 
 ## Genero
 - Nombre (genero_id)
-- Instrumentación(fk)
+- Instrumentación
 - Lugar de origen
