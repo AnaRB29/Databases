@@ -1,26 +1,33 @@
 # Listado de entidades y sus atributos
 
 ## Artistas 
-- Nombre artístico (artista_id)
+- Nombre artístico (artista_id)(pk)
 - Nombre real
 - Fecha de nacimiento
 - Nacionalidad
 - Año de inicio
-- Genero musical (genero_id)(pk)
+- genero_id (fk)
 
 ## Discos
-- Nombre (disco_id)
+- Nombre (disco_id)(pk)
 - Fecha de lanzamiento
-- Nombre de su artista (artista_id)(fk)
-- Cantidad de canciones
+- artista_id (fk)
+- cancion_id(fk)
 
 ## Canciones
-- Nombre (cancion_id)
-- Nombre de su interprete (artista_id)(fk)
+- Nombre (cancion_id)(pk)
+- artista_id (fk)
 - Duracion
-- Nombre del disco al que pertenece(disco_id)
+- disco_id(fk)
 
 ## Genero
-- Nombre (genero_id)
+- Nombre (genero_id)(pk)
 - Instrumentación
 - Lugar de origen
+
+## Tabla de relaciones 
+- Nombre artistico puede tener un género (1-1)
+- Nombre disco puede tener un artista(1-1)
+- Nombre disco puede tener varias canciones (1-M)
+- Nombre cancion puede tener un solo disco (1-1)
+- Nombre cancion puede tener solo un artista (1-1)
