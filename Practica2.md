@@ -36,3 +36,6 @@
 - Nombre cancion puede tener un solo disco (1-1)
 - Nombre cancion puede tener solo un artista (1-1)
 - Nombre género puede tener un solo pais (1-1)
+
+## Diagrama 
+![Diagrama](https://media.discordapp.net/attachments/930177756011053086/1035215391661772901/Diagrama2710.jpg?width=847&height=476)
